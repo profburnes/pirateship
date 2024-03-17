@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate Ship</title>
+
+    <meta name="description" content="Site do game Navio Pirata mais legal do Brasil">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/icone.png">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" title="Pirate Ship" class="header-logo">
+            <img src="imagens/logo.png" alt="Pirate Ship">
+        </a>
+
+        <a href="javascript:mostrarMenu()" class="header-menu" title="Menu">
+            <img src="imagens/menu.webp" alt="Menu">
+        </a>
+
+        <nav class="header-nav">
+            <ul>
+                <li>
+                    <a href="index.html" title="Home">Home</a>
+                </li>
+                <li>
+                    <a href="sobre.html" title="Home">Sobre</a>
+                </li>
+                <li>
+                    <a href="game.html" title="Game">Game</a>
+                </li>
+                <li>
+                    <a href="contato.html" title="Contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="centro">Sobre</h2>
+
+        <div class="flex-2">
+            <div class="coluna-1">
+                <img src="imagens/construct.png" alt="Construct">
+            </div>
+            <div class="coluna-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim voluptatibus explicabo, suscipit, distinctio id aut exercitationem ex fugiat cumque voluptatum. Neque, cum sint voluptatibus error dignissimos explicabo fugiat perspiciatis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur reprehenderit a numquam eius, exercitationem vero ex, inventore ipsa aliquid voluptatum, error ducimus aut voluptates ipsam dolore sit debitis cumque.</p>
+            </div>
+        </div>
+
+        <h2 class="centro">Sobre o Autor</h2>
+        <div class="flex-2">
+            <div class="coluna-1">
+                <img src="imagens/burnes.gif" alt="Mr Burnes">
+            </div>
+            <div class="coluna-2">
+                <p>
+                    <strong>Nome:</strong> Sr. Burnes
+                </p>
+                <p>
+                    <strong>Contato:</strong> burnes@professorburnes.com
+                </p>
+                <p>
+                    <strong>Redes Sociais:</strong>
+                </p>
+                <p>
+                    - Facebook: <a href="https://facebook.com/profburnes" title="Facebook">profburnes</a><br>
+                    - Instagram: <a href="https://instagram.com/profburnes" title="Facebook">profburnes</a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>
+            Desenvolvido por Burnes<br>
+            E-mail: burnes@professorburnes.com
+        </p>
+    </footer>
+
+    <script>
+        function mostrarMenu() {
+            var menu = document.querySelector(".header-nav");
+            menu.classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
